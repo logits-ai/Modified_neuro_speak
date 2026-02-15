@@ -1,0 +1,20 @@
+# 1. Block AI Models and Weights
+*.onnx
+*.bin
+
+# 2. Block NVIDIA CUDA Files
+*.dll
+
+# 3. Block Audio Output Files
+*.wav
+
+*.json
+
+# 4. Block Python Virtual Environments
+.venv/
+__pycache__/
+
+# 5. Block React Node Modules
+node_modules/
+
+dist/
